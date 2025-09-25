@@ -35,7 +35,11 @@
 - Το **T5 Paraphraser** έδωσε πιο δημιουργικές αλλά πιο απομακρυσμένες παραφράσεις (similarity ~0.70–0.75).
 
 ### Οπτικοποιήσεις
+<img width="940" height="705" alt="image" src="https://github.com/user-attachments/assets/c6555ad2-1159-400d-9a50-261f78f303ea" />
+
 - **PCA (embeddings_2d_pca.png):** Τα Custom Rules και LanguageTool βρίσκονται πολύ κοντά στα αρχικά κείμενα, ενώ οι παραφράσεις T5 απέχουν περισσότερο.
+<img width="940" height="705" alt="image" src="https://github.com/user-attachments/assets/a12a2880-7f54-40b4-ad04-e3e425c44767" />
+
 - **t-SNE (embeddings_2d_tsne.png):** Ενισχύεται η ίδια εικόνα: τα Custom Rules και LanguageTool συγκεντρώνονται γύρω από τα αρχικά, ενώ το T5 εμφανίζει διακριτό cluster.
 
 ## Συζήτηση
