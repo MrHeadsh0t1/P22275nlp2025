@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "nlp-reconstruction"
+version = "0.1.0"
+description = "Deliverables 1 & 2: automatic reconstruction pipelines and embedding-based analysis."
+authors = ["You <you@example.com>"]
+readme = "README.md"
+packages = [{ include = "nlp_reconstruction", from = "src" }]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+pandas = "^2.2.0"
+scikit-learn = "^1.5.0"
+matplotlib = "^3.9.0"
+sentence-transformers = "^3.0.1"
+transformers = "^4.43.0"
+torch = {version = "^2.3.0", markers = "platform_system != 'Darwin' or platform_machine != 'arm64'"} 
+spacy = "^3.7.4"
+nltk = "^3.9"
+language-tool-python = "^2.7.1"
+tqdm = "^4.66.0"
+numpy = ">=1.26,<2.0"
+scipy = ">=1.11,<1.13"
+gensim = "4.3.2"
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.0"
+ruff = "^0.6.7"
+
+[build-system]
+requires = ["poetry-core>=1.6.0"]
+build-backend = "poetry.core.masonry.api"

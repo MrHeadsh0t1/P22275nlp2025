@@ -1,0 +1,32 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual envs / local configs
+.venv/
+.env
+.env.*
+.conda/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Poetry / cache
+poetry.lock
+.cache/
+dataset_cache/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Model weights / large artifacts
+*.bin
+*.pt
+*.pth
+*.h5
+
+# Outputs (διατηρούμε μόνο κενό .gitkeep)
+outputs/
+!outputs/.gitkeep
